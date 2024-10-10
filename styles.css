@@ -59,3 +59,34 @@ h3{
     margin-left: 120px;
     margin-right: 120px;
 }
+
+
+
+table {
+    border-collapse: collapse;
+    margin-left: 120px;   
+    font-size: 20px;
+    }
+
+    tbody tr:nth-child(odd) {
+        font-weight: bold;
+        font-size: 25px;
+        }
+        tbody tr:nth-child(even) {
+        background-color: #ffffff;
+        }
+
+    th, td {
+    padding-left: 1em;
+    padding-right: 8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.75em;
+
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: rgb(255, 255, 255);
+        }
+        tbody tr:nth-child(even) {
+        background-color: #ffffff;
+        }

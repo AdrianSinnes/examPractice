@@ -1,12 +1,42 @@
+body{
+    margin:0;
+}
 header{
-    padding: 0%;
+    padding: 20px;
     font-family: sans-serif;
     text-align: center;
+    background-color: yellow;
+    color: black;
 }
-
-h2{
-    font-size: 60px;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-left: 20px;
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border:none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration:none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: grey;
+}
+.dropdown a:hover{
+    background-color: grey;
 }

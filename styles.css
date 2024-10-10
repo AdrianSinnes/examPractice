@@ -101,7 +101,7 @@ table {
 
         .footer{
             padding:  70px;
-            background-color: #424141;
+            background-color: yellow;
         }
 
 .container{
@@ -123,7 +123,7 @@ ul{
 }      
 .footer-col h4{ 
     font-size: 18px;
-    color: #ffffff;
+    color: #070707;
     text-transform: capitalize;
     margin-bottom: 35px;
     font-weight: 500;
@@ -134,7 +134,7 @@ ul{
     position:absolute;
     left:0;
     bottom: -10px;
-    background-color: #e91e63;
+    background-color: #ffffff;
     height: 2px;
     box-sizing: border-box;
     width: 50px
@@ -146,6 +146,39 @@ ul{
     font-size: 16px;
     text-transform: capitalize;
     font-weight: 300;
-    color: #bbbbbb;
+    color: #000000;
     display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a :hover{
+    color:white;
+    padding-left:8px;
+}
+.footer-col social-links a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color: rgba(148, 134, 134, 0.2);
+
+margin: 0 10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: white;
+transition: all 0.5s ease;
+}
+.footer-col social-linksa:hover{
+    color: black;
+    background-color: white;
+}
+@media(max-width:767px){
+.footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+    }
+}
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+    }
 }

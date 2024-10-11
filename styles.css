@@ -169,15 +169,15 @@ ul{
         margin-bottom: 30px;
     }
 }
-/* CSS-spesifikke stiler for fotballsiden */
 .football-page {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family:sans-serif;
     color: #0a0a0a;
+    background-color: #f0f0f0;
+    min-height: 100vh;
   }
   
   .football-page .header {
-    background-color: #000000; /* Grønn bakgrunn for fotball-tema */
+    background-color: #000000;
     color: #fff;
     padding: 60px 0;
     text-align: center;
@@ -192,18 +192,24 @@ ul{
   
   .football-page .container {
     padding: 20px;
+    background-image: url(rosenborg_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:center;
+    position:relative;
+    background-color: rgba(255,255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) ;
   }
   
   .football-page .button {
-    background-color: #4b4b4b;
+    background-color: rgba(255, 255, 255, 0.8);
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
-    transition: background-color 0.3s ease;
   }
-  /* Grid layout for fotballside */
   .football-page .grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -212,14 +218,13 @@ ul{
   }
   
   .football-page .box {
-    background-color: #fff;
+    background-color:rgba(255,255,255, 0.8);
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
   }
   
-  /* Fotballside footer */
   .football-page .footer {
     background-color: #000000;
     color: #fff;
@@ -230,7 +235,6 @@ ul{
     width: 100%;
   }
   
-  /* Responsiv design spesifikt for fotballside */
   @media screen and (max-width: 768px) {
     .football-page .grid {
       grid-template-columns: 1fr;

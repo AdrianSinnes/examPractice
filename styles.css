@@ -65,30 +65,21 @@ table {
     border-collapse: collapse;
     margin-left: 120px;   
     font-size: 20px;
-    }
+    width: 100%;
+    table-layout: fixed;
+}
 
-    tbody tr:nth-child(odd) {
-        font-weight: bold;
-        font-size: 25px;
-        }
-        tbody tr:nth-child(even) {
-        background-color: #ffffff;
-        }
+th, td {
+    text-align: left;
+    padding: 0.5em 1em;
+    width: 25%;
+    box-sizing: border-box;
+}
 
-    th, td {
-    padding-left: 1em;
-    padding-right: 8em;
-    padding-top: 0.5em;
-    padding-bottom: 0.75em;
-
-    }
-
-    tbody tr:nth-child(odd) {
-        background-color: rgb(255, 255, 255);
-        }
-        tbody tr:nth-child(even) {
-        background-color: #ffffff;
-        }
+tbody tr:nth-child(odd) {
+    font-weight: bold;
+    font-size: 25px;
+}
 
         .footer{
             align-content: center;

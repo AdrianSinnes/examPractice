@@ -5,12 +5,13 @@
 }
 body{
     margin:0;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     color: #333;
     line-height: 1.5;
     font-family: sans-serif;
-    
+
 }
+
 img{
     float: left;
     margin-right: 2.5%;
@@ -49,6 +50,8 @@ h2{
     margin-left: 120px;
     margin-right: 120px;
     margin-bottom: 0px;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 h3{
@@ -57,16 +60,16 @@ h3{
     font-family: sans-serif;
     margin-left: 120px;
     margin-right: 120px;
+    margin-bottom: 5%;
 }
 
 
-
-table {
-    border-collapse: collapse;
-    margin-left: 120px;   
+.table-container  
+    table{
     font-size: 20px;
     width: 100%;
     table-layout: fixed;
+    padding-left: 6%;
 }
 
 th, td {
@@ -74,12 +77,35 @@ th, td {
     padding: 0.5em 1em;
     width: 25%;
     box-sizing: border-box;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row; */
 }
 
-tbody tr:nth-child(odd) {
-    font-weight: bold;
-    font-size: 25px;
+.container-intro-samlet {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    padding-top: 10%;
 }
+
+.intro-container {
+    width: 60%;
+    padding-left: 6%;
+}
+
+.image-container {
+    width: 30%;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
 
         .footer{
             align-content: center;
@@ -88,7 +114,7 @@ tbody tr:nth-child(odd) {
         }
 
 .footer-container{
-    max-width: 1170px;
+    max-width:100%;
     margin:auto;
 }
     .footer-row{
